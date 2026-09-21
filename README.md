@@ -8,7 +8,7 @@ This repository provides a Google Colab workflow for recalculating feature selec
 ## Files hosted externally
 - `colab_reanalysis.zip`: Zip file contains the files required to run the notebook, including the analysis script, package requirements, input data, reference results, and output directory.
 
-The zip file is available here:
+The zip file is available from the following URL:
 
 https://filedn.com/lpAczQGgeBjkX6l7SpI5JJy/public_code/nsclc_spatial_zone_radiomics/colab_reanalysis.zip 
 
