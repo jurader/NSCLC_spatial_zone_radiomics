@@ -2,12 +2,15 @@
 
 This notebook recalculates feature selection, final Cox models, and C-indices for max5, max10, and max20 from CSV files of the spatial zone radiomics.
 
-## Contents
-
+## File in this repository
 - `reanalyze_spatial_zone_radiomics.ipynb`: Google Colab notebook
-- `colab_reanalysis.zip` zip file which includes necessary files for running ipynb.  
 
-### Content in the zip file
+## File in other storage service
+- `colab_reanalysis.zip` zip file which includes necessary files for running the ipynb file.  
+
+https://filedn.com/lpAczQGgeBjkX6l7SpI5JJy/public_code/nsclc_spatial_zone_radiomics/colab_reanalysis.zip 
+
+## Content in the zip file
 
 - `reanalyze_strict_common_portable.py`: analysis code adapted to use relative paths
 - `requirements-colab.txt`: principal package versions matching the validated environment
@@ -18,10 +21,9 @@ This notebook recalculates feature selection, final Cox models, and C-indices fo
 ## Running the analysis in Google Colab
 
 1. Open the ipynb file in Google Colab.
-2. In the first code cell, upload `colab_reanalysis_en.zip`.
-3. Run the cells in order.
-4. After the max5, max10, and max20 analyses finish, review the comparison with the original results.
-5. Use the final cell to download the recalculated results as a ZIP archive.
+2. Run the cells in order.
+3. After the max5, max10, and max20 analyses finish, review the comparison with the original results.
+4. Use the final cell to download the recalculated results as a ZIP archive.
 
 CT images and GTV masks are not required. This reanalysis starts from the CSV files of radiomics feature.
 
