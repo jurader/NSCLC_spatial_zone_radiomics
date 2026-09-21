@@ -4,7 +4,7 @@ This notebook recalculates feature selection, final Cox models, and C-indices fo
 
 ## Contents
 
-- `reanalyze_strict_common_colab_en.ipynb`: Google Colab notebook
+- `reanalyze_spatial_zone_radiomics.ipynb`: Google Colab notebook
 - `colab_reanalysis.zip` zip file which includes necessary files for running ipynb.  
 
 ### Content in the zip file
