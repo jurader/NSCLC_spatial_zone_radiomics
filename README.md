@@ -22,10 +22,10 @@ https://filedn.com/lpAczQGgeBjkX6l7SpI5JJy/public_code/nsclc_spatial_zone_radiom
 
 ## Running the analysis in Google Colab
 
-1 Open the notebook in Google Colab.
-2 Run the cells in order.
-3 After the max5, max10, and max20 analyses are complete, review the comparison with the original results.
-4 Run the final cell to download the recalculated results as a ZIP archive.
+1. Open the notebook in Google Colab.
+2. Run the cells in order.
+3. After the max5, max10, and max20 analyses are complete, review the comparison with the original results.
+4. Run the final cell to download the recalculated results as a ZIP archive.
 
 CT images and GTV masks are not required because this reanalysis starts from previously saved radiomics feature CSV files.
 
