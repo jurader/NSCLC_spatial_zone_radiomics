@@ -32,5 +32,5 @@ CT images and GTV masks are not required because this reanalysis starts from pre
 
 ## Reproduced workflow
 
-The workflow uses LUNG1 development and LUNG2 validation cohorts, constructs 10 analysis conditions, performs preprocessing within cross-validation, selects Elastic-Net Cox hyperparameters using stratified five-fold cross-validation, retains up to 5, 10, or 20 selected features, fits the final Cox models, and calculates log-partial-hazard risk scores and Harrell’s C-index.
+The workflow uses NSCLC-Radiomics for development and NSCLC-Radiogenomics for validation cohorts, constructs 10 analysis conditions, performs preprocessing within cross-validation, selects Elastic-Net Cox hyperparameters using stratified five-fold cross-validation, retains up to 5, 10, or 20 selected features, fits the final Cox models, and calculates log-partial-hazard risk scores and Harrell’s C-index.
 
