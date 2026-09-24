@@ -1,0 +1,11 @@
+﻿condition,l1_ratio,alpha,n_nonzero,n_candidates
+original_radiomics,0.1,1.0,32,849
+inner_ring_physical2mm,0.1,1.0,27,851
+inner_core_physical2mm,0.1,0.43287612810830584,66,851
+outer_ring_physical2mm,0.1,1.0,33,851
+inner_ring_physical3mm,0.1,1.0,27,851
+inner_core_physical3mm,0.1,0.657933224657568,55,851
+outer_ring_physical3mm,0.1,0.43287612810830584,63,851
+inner_ring_physical5mm,0.1,1.0,31,851
+inner_core_physical5mm,0.5,0.2848035868435802,8,851
+outer_ring_physical5mm,0.1,1.0,20,851
