@@ -34,3 +34,10 @@ CT images and GTV masks are not required because this reanalysis starts from pre
 
 The workflow uses NSCLC-Radiomics for development and NSCLC-Radiogenomics for validation cohorts, constructs 10 analysis conditions, performs preprocessing within cross-validation, selects Elastic-Net Cox hyperparameters using stratified five-fold cross-validation, retains up to 5, 10, or 20 selected features, fits the final Cox models, and calculates log-partial-hazard risk scores and Harrell’s C-index.
 
+## Running the analysis in Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jurader/NSCLC_spatial_zone_radiomics/blob/main/reanalyze_spatial_zone_radiomics.ipynb)
+
+1. Click the **Open in Colab** button above.
+2. Run the cells in order.
+3. After the max5, max10, and max20 analyses are complete, review the comparison with the original results.
